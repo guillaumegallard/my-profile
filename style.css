@@ -1,0 +1,115 @@
+/* Colors and fonts */
+a {
+	text-decoration:none;
+}
+body { 
+	background-color: #edf7fa ;
+	color: rgb(150,150,150);
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	 }
+
+
+h1	{
+	color: #ff8363;
+	font-family: 'Lora', serif;
+	font-weight: lighter;
+	font-size: 32px ;
+}
+
+h2	{
+	color: #ffb677;
+	font-family: Times;
+	font-size: 24px;
+	font-weight: lighter;
+
+}
+img	{
+	width: 200px ;
+}
+
+@media (max-width: 500px) {
+	div {
+		width: 400px;
+	}
+}
+
+@media (max-width: 760px) {
+	div {
+		width: 600px;
+	}
+}
+@media (max-width: 400px) {
+	div {
+		width: 100px;
+	}
+}
+@media (max-width: 100px) {
+	div {
+		width: 50px;
+	}
+}
+
+/*Custom design with class (99% of your design) */
+
+.container {
+	background-color: white;
+	width: 700px;
+	margin: 40px auto;
+	text-align: center;
+	padding: 50px ;
+	box-shadow: 0 0 15px rgba(79,41,83);
+}
+
+.card-white {
+	width: 700px ;
+	margin: 40px auto;
+	background-color: white;
+	padding: 50px;
+	box-shadow: 0 0 15px rgba(79,41,83);
+	border-radius: 4px;
+	text-align: center;
+}
+.img-circle {
+	with:200px;
+	border-radius: 50%;
+}
+.btn-orange  {
+	text-decoration: none;
+	margin-top: 200px ;
+	text-decoration: none;
+	background-color: #ffb677;
+	color: white ;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.btn-orange:hover {
+	background-color: #5f6caf;
+	padding: 20px 25px;
+	padding-left: 0px;
+	transition: 1s;
+	border-radius: 10px;
+}
+
+.list-inline {
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	list-style: none;
+	font-size: 100px;
+	color: rgb(230,230,230);
+}
+
+.list-inline i:hover {
+	color: #ff8363;
+}
+/*Design adjustment using id (1% adjustment remaining)*/
+#introduction p	{
+	margin-bottom:  40px;
+}
